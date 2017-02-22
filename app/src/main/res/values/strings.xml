@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WatchApp</string>
+
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_no">Não</string>
+    <string name="action_yes">Sim</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_reset">RESETAR</string>
+    <string name="action_add">ADICIONAR</string>
+    <string name="action_remove">REMOVER</string>
+    <string name="action_duplicated">DUPLICADO</string>
+    <string name="action_reset_list">RESETAR LISTA</string>
+
+    <string name="no_content_imdbid">[id]</string>
+    <string name="no_content_title">[título]</string>
+    <string name="no_content_plot">[plot]</string>
+    <string name="no_content_poster">[pôster]</string>
+
+    <string name="label_imdbid">IMDb ID</string>
+    <string name="label_type_to_search">Digite para pesquisar</string>
+
+    <string name="warn_duplicate_movie">Filme já está na lista. Adicionar mesmo assim?</string>
+    <string name="warn_remove_movie">Deseja excluir este filme da lista?</string>
+    <string name="warn_reset_list">Deseja resetar a lista?</string>
+
+    <string name="info_list_size_tiny">filme</string>
+    <string name="info_list_size">filmes</string>
+    <string name="info_list_null">Lista vazia</string>
+    <string name="info_no_content">Nenhum filme encontrado com este título</string>
+    <string name="info_successfully_added">Filme adicionado na lista</string>
+    <string name="info_successfully_reset_list">Lista resetada com sucesso</string>
+
+    <string name="err_autosearch_movie">Não conseguimos buscar os filmes. Confira suas configurações de conexão e tente novamente.</string>
+    <string name="err_autosearch_poster">Não conseguimos buscar o pôster. Confira suas configurações de conexão e tente novamente.</string>
+</resources>

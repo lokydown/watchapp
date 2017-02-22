@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3e865f5b8685a9f8fc7da243688ebb297ad3e7d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_14eb6a996383b25712b29f1599b72efabc5d538f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_7c3c7b1fe9800b0fb90cec84a504504fc71e7f16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_090c30f1d11928b8c2cb5723239fab11e784d612.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_47377f943702e35eb03bf8bd265e0e627f985279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_c46bb19681d0bf3932361edcccdabf6db25ff420.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/okio-1.8.0_f06ebbd6edefef1b055a694713c1e86d659b1990.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_bfd2ea28a0eeef98accdfcb649eb6230e6209940.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_62be6a7819aecc412bfd56f6d9a64d05d34213b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/4fdcf1fc27c1a8f55d1109df986c923152f07759/javapoet-1.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4fdcf1fc27c1a8f55d1109df986c923152f07759">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/javapoet-1.7.0_664166b7aaa4b35028dd2e388fe2cbd717466ded.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_5f6e376c11e6c72903a80e1bc225d1915eaef689.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_a67cfe8e6849baeea8794bb8c11f7377179ff3a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.6/cf7212b0f8bfef12657b942df8f4f2cf032d3f41/auto-common-0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf7212b0f8bfef12657b942df8f4f2cf032d3f41">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/auto-common-0.6_e60953c4b7f1e768f7e958a3c87baf38edc5246d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/gson-2.6.1_3dad88b857c17a09a0a578a63d262cd665711033.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_4961fe5fccda00760269e21788c58fdd3a386d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/opt/android-studio/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/guava-18.0_057fab6a02c78770427ce63c315762a112722858.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.3.1_de8cb8bbf41e8c246a7df7b52c353160a5201cb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_9190094aa0b147406926ae1f1960cc43132cea27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_5cfba9c97deeb4b4fd229a5f9ee3772810d080c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_5411df6739028ffc1f5ec101da38f3c23ef1a4a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_4163be33143e48cde381bf5ca290f0605903f07a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-compiler/8.4.0/22f40cd3f01849c6deeab0a755d2082b2624581/butterknife-compiler-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="022f40cd3f01849c6deeab0a755d2082b2624581">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/butterknife-compiler-8.4.0_f036c4dea66e6967de93c008337dd82da3e70d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a4fde9d83f54d97513dd3e6201fdec17cb5a3e8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b424338ec328c0589f5e2b7e3241ef180f4afd8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_5231b834d7a60b0549bde9b8aa0e8d428fc74a44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/douglas/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51033a5b8fcf7039159e35b6878f106ccd5fb35f">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/auto-service-1.0-rc2_158cdb8218b1cae5733b647bb617a9c57ce1603e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_48a5105289fd9093b22e3eba4714b2840395dcf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_9da96ac82108724c0bb8465ddc73f1556a86e161.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_e74f34f4b609c2b5f451ff1779f921a857e14aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_307e69bdcf157138888754c82c844f394a30314a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_0b4fabac467693931800c30d6cb39608e851248f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.github.satyan-sugar-1.4_16307e41f218970f1193ac3cbc4c23b51bd54198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.getbase-floatingactionbutton-1.10.1_44efbfd15bdc104ad1137e4f28713a82b866fb2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/media/douglas/BACKUP/Developer/Android/WatchApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d58be7cf04cfdee9e439188c7fbb58aee7416492.jar" />
+    </item>
+
+</items>

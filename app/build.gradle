@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "app.watchapp"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/notice.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    def dependencies = rootProject.ext.dependencies
+
+    androidTestCompile(dependencies.espresso, {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    testCompile dependencies.jUnit
+
+    compile dependencies.supportv4
+    compile dependencies.appCompatv7
+    compile dependencies.recyclerviewv7
+    compile dependencies.cardviewv7
+
+    compile dependencies.design
+    compile dependencies.fab
+
+    compile dependencies.sugar
+    compile dependencies.butterKnife
+    compile dependencies.butterKnifeAnnotationProcessor
+
+    compile dependencies.retrofit
+    compile dependencies.gson
+    compile dependencies.okhttp3LoggingInterceptor
+
+    compile dependencies.picasso
+}

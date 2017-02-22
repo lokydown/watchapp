@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WatchApp</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_no">No</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_reset">RESETAR</string>
+    <string name="action_add">ADD</string>
+    <string name="action_remove">REMOVE</string>
+    <string name="action_duplicated">DUPLICATED</string>
+    <string name="action_reset_list">RESET LIST</string>
+
+    <string name="no_content_imdbid">[id]</string>
+    <string name="no_content_title">[title]</string>
+    <string name="no_content_plot">[plot]</string>
+    <string name="no_content_poster">[poster]</string>
+
+    <string name="label_imdbid">IMDb ID</string>
+    <string name="label_type_to_search">Type to start search</string>
+
+    <string name="warn_duplicate_movie">Movie already in your list. Add anyway?</string>
+    <string name="warn_remove_movie">Do you really want to remove this movie from list?</string>
+    <string name="warn_reset_list">Do you really want to reset list?</string>
+
+    <string name="info_list_size_tiny">movie</string>
+    <string name="info_list_size">movies</string>
+    <string name="info_list_null">Empty list</string>
+    <string name="info_no_content">No one movie found with this title</string>
+    <string name="info_successfully_added">Movie successfully added to your list</string>
+    <string name="info_successfully_reset_list">List successfully reset</string>
+
+    <string name="err_autosearch_movie">We have some problems to search movie now. Check your connection settings and try again later.</string>
+    <string name="err_autosearch_poster">We have some problems to search poster now. Check your connection settings and try again later.</string>
+</resources>
