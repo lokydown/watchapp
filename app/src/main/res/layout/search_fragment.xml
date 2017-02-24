@@ -15,6 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             cardview:cardElevation="5dp">
+
             <EditText
                 android:id="@+id/et_filter"
                 android:layout_width="match_parent"
@@ -40,24 +41,24 @@
                 android:layout_weight="1" />
         </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/ll_no_content"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone">
+        <LinearLayout
+            android:id="@+id/ll_no_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
 
-        <TextView
-            android:id="@+id/tv_no_content"
-            android:text="@string/info_no_content"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="14sp"
-            android:textAlignment="center"
-            android:typeface="serif"
-            android:textStyle="normal|italic" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tv_no_content"
+                android:text="@string/info_no_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:typeface="serif"
+                android:textStyle="normal|italic" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/ll_content"
@@ -66,17 +67,11 @@
             android:layout_height="match_parent"
             android:visibility="gone">
 
-            <android.support.v4.widget.SwipeRefreshLayout
-                android:id="@+id/srlResultList"
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_search_result_list"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent" />
 
-                <android.support.v7.widget.RecyclerView
-                    android:id="@+id/rv_search_result_list"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-            </android.support.v4.widget.SwipeRefreshLayout>
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

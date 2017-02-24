@@ -17,6 +17,7 @@
             android:layout_marginBottom="10dp"
             android:layout_gravity="center"
             cardview:cardElevation="5dp">
+
             <TextView
                 android:id="@+id/tvWatchlistInfo"
                 android:text="TextView"
@@ -25,7 +26,6 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textAlignment="center" />
-
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.RecyclerView
