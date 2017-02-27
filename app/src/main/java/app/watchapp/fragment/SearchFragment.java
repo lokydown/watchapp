@@ -33,14 +33,10 @@ import retrofit2.Response;
 
 public class SearchFragment extends Fragment {
 
-    @BindView(R.id.ll_content)
-    LinearLayout layoutContent;
-    @BindView(R.id.ll_no_content)
-    LinearLayout layoutNoContent;
-    @BindView(R.id.ll_loading)
-    LinearLayout layoutLoading;
-    @BindView(R.id.et_filter)
-    EditText etFilter;
+    @BindView(R.id.ll_content) LinearLayout layoutContent;
+    @BindView(R.id.ll_no_content) LinearLayout layoutNoContent;
+    @BindView(R.id.ll_loading) LinearLayout layoutLoading;
+    @BindView(R.id.et_filter) EditText etFilter;
     @BindView(R.id.rv_search_result_list) RecyclerView recyclerView;
 
     private MovieList movies;

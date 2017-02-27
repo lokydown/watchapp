@@ -18,6 +18,7 @@ import com.squareup.picasso.Picasso;
 import app.watchapp.R;
 import app.watchapp.pojo.Movie;
 import app.watchapp.pojo.MovieList;
+import app.watchapp.utils.Utils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -44,9 +45,11 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.CustomView
     public void onBindViewHolder(final CustomViewHolder customViewHolder, final int i) {
         final Movie movie = movies.getMovies().get(i);
 
-        if (movie.getPosterUrl() != null) {
-            Picasso.with(context).load(movie.getPosterUrl()).into(customViewHolder.ivPoster);
-        }
+        Picasso.with(context).load(movie.getPosterUrl())
+                .placeholder(R.drawable.ic_add_black_18dp)
+                .error(R.drawable.ic_clear_black_18dp)
+                .into(customViewHolder.ivPoster);
+
         customViewHolder.tvImdbId.setText(movie.getImdbID());
         customViewHolder.tvTitle.setText(movie.getTitle());
         customViewHolder.tvInfo.setText(movie.getType().toUpperCase() + " | " + movie.getYear());

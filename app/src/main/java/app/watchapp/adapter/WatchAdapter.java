@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
+import java.io.File;
 import java.util.List;
 
 import app.watchapp.R;
@@ -47,7 +50,10 @@ public class WatchAdapter extends RecyclerView.Adapter<WatchAdapter.CustomViewHo
 
         if (movie.getPosterImage() != null) {
             customViewHolder.ivMovieThumbnail.setImageBitmap(BitmapFactory.decodeByteArray(movie.getPosterImage(), 0, movie.getPosterImage().length));
+        } else {
+            customViewHolder.ivMovieThumbnail.setImageResource(R.drawable.ic_clear_black_18dp);
         }
+
         customViewHolder.tvImdbId.setText(movie.getImdbID());
         customViewHolder.tvTitle.setText(movie.getTitle());
         customViewHolder.tvInfo.setText(movie.getType().toUpperCase() + " | " + movie.getYear());
