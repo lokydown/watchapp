@@ -1,4 +1,4 @@
-# watchapp
+# WatchApp
 
 ## Tecnologias
 
@@ -10,9 +10,7 @@
 - FAB 1.10.1
 - Sugar ORM 1.4
 - ButterKnife
-    - ButterKnifeAnnotationProcessor
 - Retrofit 2.0.2
-    - OkHTTP 3 LoggingInterceptor
 - Gson 2.0.2
 - Picasso 2.5.2
 
