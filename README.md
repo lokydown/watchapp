@@ -2,7 +2,7 @@
 
 ## Tecnologias
 
-- Android Support
+- Android Support Library
   - AppCompat-v7
   - Recyclerview-v7
   - Cardview-v7
