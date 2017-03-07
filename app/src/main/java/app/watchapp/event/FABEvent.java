@@ -6,13 +6,13 @@ package app.watchapp.event;
 
 public class FABEvent {
 
-    private Boolean toggle;
+    private Boolean display;
 
-    public FABEvent(Boolean toggle) {
-        this.toggle = toggle;
+    public FABEvent(Boolean display) {
+        this.display = display;
     }
 
-    public Boolean getToggle() {
-        return toggle;
+    public Boolean display() {
+        return display;
     }
 }

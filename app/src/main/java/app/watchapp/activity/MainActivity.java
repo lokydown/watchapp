@@ -122,9 +122,9 @@ public class MainActivity extends AppCompatActivity {
             .commit();
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscribe(threadMode = ThreadMode.POSTING)
     public void onEvent(FABEvent event) {
-        if (event.getToggle()) {
+        if (event.display()) {
             fab.show();
         } else {
             fab.hide();
