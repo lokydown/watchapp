@@ -4,6 +4,8 @@ import android.app.Application;
 
 import com.orm.SugarContext;
 
+import org.greenrobot.eventbus.EventBus;
+
 import app.watchapp.rest.OmdbClient;
 
 /**
@@ -12,6 +14,7 @@ import app.watchapp.rest.OmdbClient;
 
 public class App extends Application {
     private static OmdbClient omdbClient;
+    private static EventBus bus;
 
     @Override
     public void onCreate() {
@@ -19,6 +22,7 @@ public class App extends Application {
         SugarContext.init(this);
 
         omdbClient = new OmdbClient();
+        bus = EventBus.getDefault();
     }
 
     @Override
@@ -29,5 +33,8 @@ public class App extends Application {
 
     public static OmdbClient getOmdbClient() {
         return omdbClient;
+    }
+    public static EventBus getEventBus() {
+        return bus;
     }
 }

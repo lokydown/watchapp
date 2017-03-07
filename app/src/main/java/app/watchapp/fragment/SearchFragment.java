@@ -18,6 +18,7 @@ import app.watchapp.App;
 import app.watchapp.R;
 import app.watchapp.activity.MainActivity;
 import app.watchapp.adapter.SearchAdapter;
+import app.watchapp.event.FABEvent;
 import app.watchapp.pojo.MovieList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -50,9 +51,7 @@ public class SearchFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (getActivity() instanceof MainActivity) {
-            ((MainActivity) getActivity()).hideFloatingActionButton();
-        }
+        App.getEventBus().post(new FABEvent(false));
 
         setHasOptionsMenu(true);
     }

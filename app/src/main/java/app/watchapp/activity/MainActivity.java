@@ -12,7 +12,13 @@ import android.widget.Toast;
 
 import com.orm.SugarRecord;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+import app.watchapp.App;
 import app.watchapp.R;
+import app.watchapp.event.FABEvent;
 import app.watchapp.fragment.SearchFragment;
 import app.watchapp.fragment.WatchFragment;
 import app.watchapp.pojo.Movie;
@@ -40,6 +46,20 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         setDefaultFragment();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        //EventBus.getDefault().register(this);
+        App.getEventBus().register(this);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        //EventBus.getDefault().unregister(this);
+        App.getEventBus().unregister(this);
     }
 
     @Override
@@ -102,12 +122,13 @@ public class MainActivity extends AppCompatActivity {
             .commit();
     }
 
-    public void showFloatingActionButton() {
-        fab.show();
-    };
-
-    public void hideFloatingActionButton() {
-        fab.hide();
-    };
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(FABEvent event) {
+        if (event.getToggle()) {
+            fab.show();
+        } else {
+            fab.hide();
+        }
+    }
 
 }

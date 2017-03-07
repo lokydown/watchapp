@@ -14,9 +14,11 @@ import com.orm.SugarRecord;
 
 import java.util.List;
 
+import app.watchapp.App;
 import app.watchapp.R;
 import app.watchapp.activity.MainActivity;
 import app.watchapp.adapter.WatchAdapter;
+import app.watchapp.event.FABEvent;
 import app.watchapp.pojo.Movie;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -65,9 +67,7 @@ public class WatchFragment extends Fragment {
     public void onResume() {
         super.onResume();
 
-        if (getActivity() instanceof MainActivity) {
-            ((MainActivity) getActivity()).showFloatingActionButton();
-        }
+        App.getEventBus().post(new FABEvent(true));
 
         render();
     }

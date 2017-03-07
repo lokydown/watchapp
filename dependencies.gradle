@@ -13,6 +13,7 @@ ext {
     retrofitVersion                 = '2.0.2'
     okHttp3Version                  = '3.3.1'
     picassoVersion                  = '2.5.2'
+    eventBusVersion                 = '3.0.0'
 
     dependencies = [
             appCompatv7                     : "com.android.support:appcompat-v7:${supportVersion}",
@@ -26,6 +27,7 @@ ext {
             retrofit                        : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
             okhttp3LoggingInterceptor       : "com.squareup.okhttp3:logging-interceptor:${okHttp3Version}",
             gson                            : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
-            picasso                         : "com.squareup.picasso:picasso:${picassoVersion}"
+            picasso                         : "com.squareup.picasso:picasso:${picassoVersion}",
+            eventBus                        : "org.greenrobot:eventbus:${eventBusVersion}"
     ]
 }

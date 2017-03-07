@@ -48,4 +48,6 @@ dependencies {
     compile dependencies.okhttp3LoggingInterceptor
 
     compile dependencies.picasso
+
+    compile dependencies.eventBus
 }
