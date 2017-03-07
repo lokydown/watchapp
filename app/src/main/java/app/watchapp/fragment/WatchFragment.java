@@ -44,6 +44,8 @@ public class WatchFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        App.getEventBus().post(new FABEvent(true));
     }
 
     @Override
@@ -66,8 +68,6 @@ public class WatchFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-
-        App.getEventBus().post(new FABEvent(true));
 
         render();
     }
