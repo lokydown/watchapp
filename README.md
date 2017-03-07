@@ -13,6 +13,7 @@
 - Retrofit 2.0.2
 - Gson 2.0.2
 - Picasso 2.5.2
+- EventBus 3.0.0
 
 
 ## Estrutura
