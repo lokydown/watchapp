@@ -9,7 +9,7 @@
   - Design
 - FAB 1.10.1
 - Sugar ORM 1.4
-- ButterKnife
+- ButterKnife 8.4.0
 - Retrofit 2.0.2
 - Gson 2.0.2
 - Picasso 2.5.2
