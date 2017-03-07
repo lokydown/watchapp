@@ -28,6 +28,8 @@ watchapp/
         adapter/
           SearchAdapter.java
           WatchAdapter.java
+        event/
+          FABEvent.java
         fragment/
           SearchFragment.java
           WatchFragment.java
